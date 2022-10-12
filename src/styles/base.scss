@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+
+  --main: #EADDE1;
+  --secondary: #E5CEDC;
+  --third: #BCA3AC;
+  --dark: #545053;
+  --light: #F3EAF4;
+}
+
+.dark {
+  --main: #351C2C;
+  --secondary: #26171C;
+  --third: #5F454E;
+  --dark: #bfb4c1;
+  --light: #190E1B;
+}
+
+.app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  background-color: var(--main);
+  color: var(--dark);
+}

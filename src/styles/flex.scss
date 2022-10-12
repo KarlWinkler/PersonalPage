@@ -1,0 +1,26 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.flex-start {
+  justify-content: start;
+}
+
+.flex-end {
+  justify-content: end;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-gap-1 {
+  gap: 10px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
