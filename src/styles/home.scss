@@ -1,0 +1,86 @@
+// https://www.youtube.com/watch?v=NUeCNvYY_x4
+
+.home {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.home-menu {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  z-index: 10;
+}
+
+.home-menu-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main);
+  opacity: 0.6;
+  border-radius: 4px;
+  z-index: -1;
+  backdrop-filter: blur(25px);
+}
+
+.home-menu-item {
+  padding: 10px;
+  font-size: clamp(3rem, 8vw, 8rem);
+  display: block;
+
+  transition: opacity 0.4s ease;
+}
+
+.home-background {
+  opacity: 0.6;
+  width: 100%;
+  height: 200%;
+  background-image: radial-gradient(
+    55% 55%,
+    transparent 99%,
+    var(--third),
+  ),
+  radial-gradient(
+    at top,
+    transparent 99%,
+    var(--main)
+  );  
+  background-size: 6vmin 6vmin;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  transition: opacity 0.4s ease,
+              background-size 0.4s ease,
+              background-position 1.5s ease;
+
+}
+
+.home-menu:hover > .home-menu-item {
+  opacity: 0.4;
+}
+
+.home-menu:hover > .home-menu-item:hover {
+  opacity: 1;
+}
+
+.home-menu:hover ~ .home-background {
+  opacity: 0.4;
+  background-size: 5vmin 5vmin;
+}
+
+.home-menu[data-index="1"] ~ .home-background {
+  background-position: 0% 25%;
+}
+
+.home-menu[data-index="2"] ~ .home-background {
+  background-position: 0% 50%;
+}

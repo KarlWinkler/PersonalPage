@@ -1,0 +1,16 @@
+.swipe-up-on-hover {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 50%,
+    var(--third) 50%,
+    var(--fourth) 100%
+  );
+  background-size: 100% 200%;
+  padding: 10px;
+}
+
+.swipe-up-on-hover:hover {
+  transition: background-position .4s ease-in;
+  background-position: 0% 100%;
+}

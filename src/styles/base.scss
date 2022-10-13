@@ -3,7 +3,9 @@ body {
 
   --main: #EADDE1;
   --secondary: #E5CEDC;
-  --third: #BCA3AC;
+  --third: #c88fa3;
+  --fourth: #dc7ea1;
+  --bright: #c90f50;
   --dark: #545053;
   --light: #F3EAF4;
 }
@@ -12,6 +14,7 @@ body {
   --main: #351C2C;
   --secondary: #26171C;
   --third: #5F454E;
+  --fourth: #785762;
   --dark: #bfb4c1;
   --light: #190E1B;
 }
@@ -23,4 +26,13 @@ body {
 
   background-color: var(--main);
   color: var(--dark);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
 }
