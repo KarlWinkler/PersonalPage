@@ -1,22 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import DarkModeToggle from './DarkModeToggle'
+import '../styles/background-swipe.scss';
+import Name from './Name';
+
 import '../styles/header.scss';
 import '../styles/flex.scss';
 
-const Header = (props) => {
+const Header = () => {
   return (
     <div className='header-container'>
       <div className='flex-container flex-start'>
-        <h1>Karl Winkler</h1>
+        <Name name='Karl Winkler' />
       </div>
       <div className='flex-container'>
-        <div><Link href='/' >Home</Link></div>
-        <div><Link href='/trip' >Trips</Link></div>
-        <div><Link href='/github/' >Github</Link></div>
+        <div><a class='header-link background-swipe' href='/PersonalPage'>Home</a></div>
+        <div><a class='header-link background-swipe' href='/PersonalPage/about'>About</a></div>
+        <div><a class='header-link background-swipe' href='/PersonalPage/projects'>Projects</a></div>
       </div>
       <div className='flex-container flex-end'>
-        <div><Link href='/login' >Login</Link></div>
         <DarkModeToggle />
       </div>
     </div>

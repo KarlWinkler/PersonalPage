@@ -1,3 +1,5 @@
+// https://dev.to/janjibdev/problem-with-react-router-app-and-github-pages-lij
+
 import './styles/base.scss';
 import{
   BrowserRouter as Router,
@@ -6,6 +8,7 @@ import{
 } from "react-router-dom";
 import Home from './Pages/Home';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -21,7 +24,7 @@ function App() {
         </div>
       </Router>
       <div className='footer'>
-        <div>Footer</div>
+        <Footer />
       </div>
     </div>
   );

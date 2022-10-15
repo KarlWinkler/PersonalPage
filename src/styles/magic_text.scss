@@ -1,11 +1,11 @@
 .magic-text {
-  animation: background-pan 3s linear infinite;
+  animation: background-pan 6s linear infinite;
   background: linear-gradient(
     90deg,
-    #fee440,
-    #f15bb5,
-    #9b5de5,
-    #fee440
+    var(--highlight-1),
+    var(--highlight-3),
+    var(--highlight-2),
+    var(--highlight-1)
   );
   background-size: 200%;
   background-clip: text;
