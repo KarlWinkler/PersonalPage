@@ -13,9 +13,9 @@ let toggleTheme = () => {
 const DarkModeToggle = () => {
   return (
     <div className='theme-toggle'>
-        <div><label className='theme-label'>Light</label></div>
+        <div><label className='theme-label'>Dark</label></div>
       <label className='switch'>
-        <input type='checkbox' className='switch-input' onChange={(e) => {toggleTheme(e)}} />
+        <input type='checkbox' defaultChecked={true} className='switch-input' onChange={(e) => {toggleTheme(e)}} />
         <span className="slider"></span>
       </label>
     </div>

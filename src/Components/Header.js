@@ -14,9 +14,9 @@ const Header = () => {
         <Name name='Karl Winkler' />
       </div>
       <div className='flex-container'>
-        <div><a class='header-link background-swipe' href='/PersonalPage'>Home</a></div>
-        <div><a class='header-link background-swipe' href='/PersonalPage/about'>About</a></div>
-        <div><a class='header-link background-swipe' href='/PersonalPage/projects'>Projects</a></div>
+        <div><a className='header-link background-swipe' href='/PersonalPage'>Home</a></div>
+        <div><a className='header-link background-swipe' href='/PersonalPage/about'>About</a></div>
+        <div><a className='header-link background-swipe' href='/PersonalPage/projects'>Projects</a></div>
       </div>
       <div className='flex-container flex-end'>
         <DarkModeToggle />
