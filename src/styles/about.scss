@@ -31,8 +31,9 @@
 .about-content-container {
   position: relative;
   overflow: hidden;
+  overflow-y: scroll;
   width: 60vw;
-  height: 100%;
+  height: max(40vh, 300px);
 }
 
 .about-content {
@@ -49,7 +50,6 @@
 }
 
 .about-content.focus {
-  position: absolute;
   opacity: 1;
   left: 0px;
   transform: scale(1);
