@@ -5,10 +5,6 @@ const DarkModeToggle = () => {
 
   let mode = localStorage.getItem('mode') || 'dark'
 
-  useEffect(() => {
-    setTheme(mode)
-  }, [])
-
   let toggleTheme = () => {
     mode = mode === 'dark' ? 'light' : 'dark'
     setTheme(mode)

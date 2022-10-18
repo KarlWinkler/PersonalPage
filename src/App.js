@@ -7,12 +7,14 @@ import{
   Routes
 } from "react-router-dom";
 import Home from './Pages/Home';
+import About from './Pages/About';
+import Projects from './Pages/Projects';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className='app dark'>
+    <div className={`app ${localStorage.getItem('mode') === 'dark' ? 'dark' : ''}` } >
       <Router>
         <div className='header'>
           <Header />
@@ -20,6 +22,7 @@ function App() {
         <div className='page'>
           <Routes>
             <Route path="/PersonalPage/" element={<Home />}/>
+            <Route path="/PersonalPage/about" element={<About />}/>
           </Routes>
         </div>
       </Router>

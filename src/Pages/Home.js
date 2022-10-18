@@ -16,11 +16,15 @@ const Home = () => {
         {/* <MagicText text='Welcome' /> */}
         <div className='home-menu'>
           <a className='home-menu-item swipe-up-on-hover' onMouseOver={() => {setIndex(1)}}>
-            &gt;About
+            About
             <div className='swipe-up-background'></div>
           </a>
           <a className='home-menu-item swipe-up-on-hover' onMouseOver={() => {setIndex(2)}}>
-            &gt;Projects
+            Projects
+            <div className='swipe-up-background'></div>
+          </a>
+          <a className='home-menu-item swipe-up-on-hover' onMouseOver={() => {setIndex(3)}}>
+            Contact
             <div className='swipe-up-background'></div>
           </a>
 

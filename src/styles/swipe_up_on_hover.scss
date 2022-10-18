@@ -5,13 +5,15 @@
 
 .swipe-up-on-hover > .swipe-up-background {
   background: linear-gradient(
-    180deg,
+    90deg,
     transparent 0%,
     transparent 50%,
-    var(--third) 50%,
-    var(--fourth) 100%
+    var(--bright) 55%,
+    var(--fourth) 85%,
+    var(--fourth) 90%,
+    transparent 100%
   );
-  background-size: 100% 200%;
+  background-size: 200% 200%;
 
   position: absolute;
   width: 100%;
@@ -23,6 +25,6 @@
 }
 
 .swipe-up-on-hover:hover > .swipe-up-background {
-  transition: background-position .4s cubic-bezier(.8,.1,.3,.9);
-  background-position: 0% 100%;
+  transition: background-position .3s ease-in;
+  background-position: 175% 0%;
 }
