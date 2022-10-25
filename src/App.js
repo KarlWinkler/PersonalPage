@@ -14,7 +14,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className={`app ${localStorage.getItem('mode') === 'dark' ? 'dark' : ''}` } >
+    <div className={`app ${localStorage.getItem('mode') === 'light' ? '' : 'dark'}` } >
       <Router>
         <div className='header'>
           <Header />

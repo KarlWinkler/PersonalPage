@@ -25,11 +25,12 @@ const DarkModeToggle = () => {
     }
   }
 
-  let checked = localStorage.getItem('mode') === 'dark' ? true : false
+  let checked = mode === 'dark' ? true : false
+
 
   return (
     <div className='theme-toggle'>
-        <div><label className='theme-label'>Dark</label></div>
+        <div><label className='theme-label'>{mode.charAt(0).toUpperCase() + mode.slice(1)}</label></div>
       <label className='switch'>
         <input type='checkbox' defaultChecked={checked} className='switch-input' onChange={(e) => {toggleTheme(e)}} />
         <span className="slider"></span>
