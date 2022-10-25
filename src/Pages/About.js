@@ -36,16 +36,34 @@ const About = () => {
         </div>
         <div className='about-content-container'>
           <div className='about-content story content-0 focus'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat sapien ut sem auctor, sed ullamcorper massa consectetur. Suspendisse lacinia eros ornare, tincidunt ipsum at, mollis risus. Integer eleifend arcu enim, in pellentesque orci semper ut. Fusce condimentum ante ut leo imperdiet, sed mattis ipsum ullamcorper. Quisque nibh justo, scelerisque vel nulla ut, ullamcorper imperdiet metus. Ut ultrices orci in nisl bibendum aliquet. Nunc ante ex, hendrerit ut lectus id, laoreet tempor metus. Etiam eu nibh mi. Curabitur laoreet risus metus, ut egestas risus tincidunt volutpat. Donec consequat dignissim purus, et feugiat lectus. Maecenas imperdiet tristique nibh sed malesuada. Phasellus tempus nulla molestie dui porttitor, sed dapibus est egestas. Suspendisse potenti.
-            Mauris vulputate id libero luctus ultricies. Curabitur eleifend dolor a pretium aliquam. Nam nec neque eget ex convallis malesuada vel vel orci. Curabitur elit odio, iaculis a sodales a, posuere eget erat. In hac habitasse platea dictumst. Nunc ac aliquet arcu. Nulla ullamcorper ut enim varius commodo. Nam ultrices, metus nec commodo dignissim, libero nibh pretium arcu, vel congue dui eros sit amet augue. Ut gravida rhoncus mi, in pretium lacus fringilla at. Sed blandit placerat metus vel venenatis. Donec eget placerat lorem. Curabitur sit amet mi ut dolor elementum molestie. Phasellus tristique cursus convallis. Duis a consequat odio. Fusce diam ante, lacinia eget iaculis vel, euismod eu purus. Phasellus eleifend purus in lorem euismod, quis fringilla dui gravida.
+            <p>
+              I am a full stack web developer striving to lean about how everything works behind the scenes. 
+              I grew up surounded by environmental ideas being contrasted with brutaly coroporate city of Calgary.
+              This motivates me to get up and work for a better future, and learn as much as I can so that I can
+              innnovate and create solutions. Finding a passion in programming and a valuable education at the
+              University of Calgary has given me a good foundation that I have been able to build on and now I 
+              have started the journy to become an expert in my field.  
+            </p>
           </div>
           <div className='about-content skills   content-1 right'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat sapien ut sem auctor, sed ullamcorper massa consectetur. Suspendisse lacinia eros ornare, tincidunt ipsum at, mollis risus. Integer eleifend arcu enim, in pellentesque orci semper ut. Fusce condimentum ante ut leo imperdiet, sed mattis ipsum ullamcorper. Quisque nibh justo, scelerisque vel nulla ut, ullamcorper imperdiet metus. Ut ultrices orci in nisl bibendum aliquet. Nunc ante ex, hendrerit ut lectus id, laoreet tempor metus. Etiam eu nibh mi. Curabitur laoreet risus metus, ut egestas risus tincidunt volutpat. Donec consequat dignissim purus, et feugiat lectus. Maecenas imperdiet tristique nibh sed malesuada. Phasellus tempus nulla molestie dui porttitor, sed dapibus est egestas. Suspendisse potenti.
-            Mauris vulputate id libero luctus ultricies. Curabitur eleifend dolor a pretium aliquam. Nam nec neque eget ex convallis malesuada vel vel orci. Curabitur elit odio, iaculis a sodales a, posuere eget erat. In hac habitasse platea dictumst. Nunc ac aliquet arcu. Nulla ullamcorper ut enim varius commodo. Nam ultrices, metus nec commodo dignissim, libero nibh pretium arcu, vel congue dui eros sit amet augue. Ut gravida rhoncus mi, in pretium lacus fringilla at. Sed blandit placerat metus vel venenatis. Donec eget placerat lorem. Curabitur sit amet mi ut dolor elementum molestie. Phasellus tristique cursus convallis. Duis a consequat odio. Fusce diam ante, lacinia eget iaculis vel, euismod eu purus. Phasellus eleifend purus in lorem euismod, quis fringilla dui gravida.
+            <p>
+              I am more or less an expert generalist, because I can't stop myself from trying to stick
+              my fingers into every part of every project I start. This breadth of skills that I have been able
+              to gather has helped me become a great problem solver and fast learner becasue I force myself
+              to learn so much. Now that I have forced myself to focus on only one thing, I have found that
+              even as a software developer I still try to learn about every aspect, whether it's the planning and
+              product side or the design and UX, I want to know it all. Recently I have been pushed towards learning
+              more about different tech stacks I have been blown away with all of the new and exciting things I get 
+              to learn.
+            </p>  
           </div>
           <div className='about-content hobbies  content-2 left '>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat sapien ut sem auctor, sed ullamcorper massa consectetur. Suspendisse lacinia eros ornare, tincidunt ipsum at, mollis risus. Integer eleifend arcu enim, in pellentesque orci semper ut. Fusce condimentum ante ut leo imperdiet, sed mattis ipsum ullamcorper. Quisque nibh justo, scelerisque vel nulla ut, ullamcorper imperdiet metus. Ut ultrices orci in nisl bibendum aliquet. Nunc ante ex, hendrerit ut lectus id, laoreet tempor metus. Etiam eu nibh mi. Curabitur laoreet risus metus, ut egestas risus tincidunt volutpat. Donec consequat dignissim purus, et feugiat lectus. Maecenas imperdiet tristique nibh sed malesuada. Phasellus tempus nulla molestie dui porttitor, sed dapibus est egestas. Suspendisse potenti.
-            Mauris vulputate id libero luctus ultricies. Curabitur eleifend dolor a pretium aliquam. Nam nec neque eget ex convallis malesuada vel vel orci. Curabitur elit odio, iaculis a sodales a, posuere eget erat. In hac habitasse platea dictumst. Nunc ac aliquet arcu. Nulla ullamcorper ut enim varius commodo. Nam ultrices, metus nec commodo dignissim, libero nibh pretium arcu, vel congue dui eros sit amet augue. Ut gravida rhoncus mi, in pretium lacus fringilla at. Sed blandit placerat metus vel venenatis. Donec eget placerat lorem. Curabitur sit amet mi ut dolor elementum molestie. Phasellus tristique cursus convallis. Duis a consequat odio. Fusce diam ante, lacinia eget iaculis vel, euismod eu purus. Phasellus eleifend purus in lorem euismod, quis fringilla dui gravida.
+            <p>
+              With my free time I like to talk with friends and learn new things, even if they aren't very
+              closely related to things I am good at. I dabble in art and writing, but I am not very good at
+              either of them. I also play video games and follow sports leagues when I don't feel like doing
+              much.
+            </p>
           </div>
         </div>
       </div>
