@@ -1,5 +1,5 @@
-<script setup lang="js">
-  import HeaderLink from '/src/components/header/HeaderLink.vue'
+<script setup lang="ts">
+  import HeaderLink from './HeaderLink.vue'
 </script>
 
 <template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import Word from "/src/components/Word.vue"
+  import Word from "../components/Word.vue"
 </script>
 
 <template>
