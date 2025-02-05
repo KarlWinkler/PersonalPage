@@ -1,9 +1,15 @@
 <script setup lang="ts">
-  import { RouterLink } from 'vue-router'
+import { RouterLink } from 'vue-router'
 
-  const { to } = defineProps<{ to: string }>()
+const { to } = defineProps<{ to: string }>()
 </script>
 
 <template>
-  <RouterLink :to=to><slot /></RouterLink>
+  <RouterLink class="link" :to="to"><slot /></RouterLink>
 </template>
+
+<style>
+.link {
+  color: #333;
+}
+</style>
