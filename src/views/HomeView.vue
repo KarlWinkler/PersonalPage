@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import Word from '../components/Word.vue'
+import Word from '@/components/Word.vue'
+import AboutSection from '@/components/AboutSection.vue'
 </script>
 
 <template>
   <main class="container">
     <div class="category right-down">
-      <div class="placeholder"></div>
-      <div class="content"></div>
+      <AboutSection />
     </div>
     <div class="category left-down right-up">
       <div class="placeholder"></div>
@@ -25,18 +25,20 @@ import Word from '../components/Word.vue'
 .container {
   position: relative;
 
+  --border-width: 4px;
+
   padding: 16px 64px;
 }
 
 .content {
   padding: 32px;
-  color: black;
+  color: var(--forground-color);
 }
 
 .category {
   position: relative;
   width: 100%;
-  border-top: 2px solid black;
+  border-top: var(--border-width) solid var(--forground-color);
 }
 
 .left-up::before {
@@ -48,7 +50,7 @@ import Word from '../components/Word.vue'
   height: 100px;
   width: 100px;
 
-  border-left: 2px solid black;
+  border-left: var(--border-width) solid var(--forground-color);
 }
 
 .left-down::after {
@@ -60,7 +62,7 @@ import Word from '../components/Word.vue'
   height: 100px;
   width: 100px;
 
-  border-left: 2px solid black;
+  border-left: var(--border-width) solid var(--forground-color);
 }
 
 .right-up::before {
@@ -72,7 +74,7 @@ import Word from '../components/Word.vue'
   height: 100px;
   width: 100px;
 
-  border-right: 2px solid black;
+  border-right: var(--border-width) solid var(--forground-color);
 }
 
 .right-down::after {
@@ -84,13 +86,13 @@ import Word from '../components/Word.vue'
   height: 100px;
   width: 100px;
 
-  border-right: 2px solid black;
+  border-right: var(--border-width) solid var(--forground-color);
 }
 
 .category1 {
   position: relative;
   width: 100%;
-  border-top: 2px solid black;
+  border-top: var(--border-width) solid var(--forground-color);
 }
 
 .category1::after {
@@ -102,13 +104,13 @@ import Word from '../components/Word.vue'
   height: 100px;
   width: 100px;
 
-  border-right: 2px solid black;
+  border-right: 2px solid var(--forground-color);
 }
 
 .category2 {
   position: relative;
   width: 100%;
-  border-top: 2px solid black;
+  border-top: 2px solid var(--forground-color);
 }
 
 .category2::before {
@@ -120,7 +122,7 @@ import Word from '../components/Word.vue'
   height: 100px;
   width: 100px;
 
-  border-right: 2px solid black;
+  border-right: 2px solid var(--forground-color);
 }
 
 .category2::after {
@@ -132,13 +134,13 @@ import Word from '../components/Word.vue'
   height: 100px;
   width: 100px;
 
-  border-left: 2px solid black;
+  border-left: 2px solid var(--forground-color);
 }
 
 .category3 {
   position: relative;
   width: 100%;
-  border-top: 2px solid black;
+  border-top: 2px solid var(--forground-color);
 }
 
 .category3::before {
@@ -150,7 +152,7 @@ import Word from '../components/Word.vue'
   height: 100px;
   width: 100px;
 
-  border-left: 2px solid black;
+  border-left: 2px solid var(--forground-color);
 }
 
 .category3::after {
@@ -162,12 +164,12 @@ import Word from '../components/Word.vue'
   height: 100px;
   width: 100px;
 
-  border-right: 2px solid black;
+  border-right: 2px solid var(--forground-color);
 }
 
 .category4 {
   position: relative;
   width: 100%;
-  border-top: 2px solid black;
+  border-top: 2px solid var(--forground-color);
 }
 </style>

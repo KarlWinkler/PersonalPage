@@ -10,6 +10,6 @@ const { to } = defineProps<{ to: string }>()
 
 <style>
 .link {
-  color: #333;
+  color: var(--forground-color);
 }
 </style>
