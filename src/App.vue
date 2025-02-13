@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import Header from './components/header/Header.vue'
+import Header from './components/header/HeaderComponent.vue'
+import Footer from './components/FooterComponent.vue'
 import { ref, provide } from 'vue'
 
 const theme = ref('light')
@@ -35,9 +36,7 @@ window.localStorage.setItem('13', 'N')
 
     <RouterView />
 
-    <div class="footer">
-      <h3>footer</h3>
-    </div>
+    <Footer />
   </div>
 </template>
 
