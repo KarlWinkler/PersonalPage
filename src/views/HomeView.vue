@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AboutSection from '@/components/AboutSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
+import ProjectsSection from '@/components/ProjectsSection.vue'
 </script>
 
 <template>
@@ -12,7 +13,7 @@ import SkillsSection from '@/components/SkillsSection.vue'
       <SkillsSection />
     </div>
     <div class="category left-up right-down">
-      <div class="placeholder"></div>
+      <ProjectsSection />
     </div>
     <div class="category right-up"></div>
   </main>

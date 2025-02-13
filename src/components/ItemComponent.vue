@@ -4,8 +4,8 @@ const { title } = defineProps<{ title: string }>()
 
 <template>
   <div class="item">
-    <p>{{ title }}</p>
     <slot />
+    <p>{{ title }}</p>
   </div>
 </template>
 
