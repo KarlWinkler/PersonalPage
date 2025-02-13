@@ -15,9 +15,9 @@ const toggleTheme = () => (theme.value = theme.value == 'light' ? 'dark' : 'ligh
     <Logo />
     <div class="links">
       <HeaderLink to="#about">about</HeaderLink>
+      <HeaderLink to="#skills">skill</HeaderLink>
       <HeaderLink to="#projects">projects</HeaderLink>
-      <HeaderLink to="#blog">blog</HeaderLink>
-      <HeaderLink to="#links">links</HeaderLink>
+      <HeaderLink class="strikethrough" to="#blog">blog</HeaderLink>
     </div>
     <div @click="toggleTheme">
       <ThemeToggle />
@@ -34,5 +34,8 @@ const toggleTheme = () => (theme.value = theme.value == 'light' ? 'dark' : 'ligh
   justify-content: center;
   gap: 32px;
   color: var(--forground-color);
+}
+.strikethrough {
+  text-decoration: line-through;
 }
 </style>

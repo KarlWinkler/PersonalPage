@@ -6,13 +6,13 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
 
 <template>
   <main class="container">
-    <div class="category right-down">
+    <div class="category right-down" id="about">
       <AboutSection />
     </div>
-    <div class="category left-down right-up">
+    <div class="category left-down right-up" id="skills">
       <SkillsSection />
     </div>
-    <div class="category left-up right-down">
+    <div class="category left-up right-down" id="projects">
       <ProjectsSection />
     </div>
     <div class="category right-up"></div>

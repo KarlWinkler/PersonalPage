@@ -8,7 +8,7 @@ import LinksComponent from './LinksComponent.vue'
       <h1>Karl Winkler</h1>
       <p class="paragraph">
         I like software, I like the way it works, or doesn't work. I like the little things about
-        it. the quirks that make each piece unique. Little bugs here and there remind us of the
+        it. The quirks that make each piece unique. Little bugs here and there remind us of the
         complexity behind the scenes, they remind us of us.
       </p>
       <p class="paragraph">
