@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Word from '@/components/Word.vue'
 import AboutSection from '@/components/AboutSection.vue'
+import SkillsSection from '@/components/SkillsSection.vue'
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import AboutSection from '@/components/AboutSection.vue'
       <AboutSection />
     </div>
     <div class="category left-down right-up">
-      <div class="placeholder"></div>
+      <SkillsSection />
     </div>
     <div class="category left-up right-down">
       <div class="placeholder"></div>

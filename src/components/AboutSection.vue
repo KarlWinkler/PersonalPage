@@ -1,29 +1,33 @@
 <template>
   <div class="about">
-    <h1>Karl Winkler</h1>
-    <p>
-      Hello, I'm Karl Winkler, a software engineer and full stack web developer working on a
-      "Radicle" project at BMO Capital Markets. I thrive on continuous learning and pushing
-      boundaries, constantly seeking new opportunities to grow in every area of life.
-    </p>
-    <p>
-      I have been able to lead important projects developing end to end features in Django/React and
-      Ruby on Rails, and I’m always eager to explore new technologies, having built applications in
-      Go, Java Spring, and more.
-    </p>
-    <p>
-      I aspire to build a platform that brings innovative people together to make a lasting impact
-      on the world.
-    </p>
+    <div>
+      <h1>Karl Winkler</h1>
+      <p>
+        I like software, I like the way it works, or doesn't work. I like the little things about
+        it. the quirks that make each piece unique. Little bugs here and there remind us of the
+        complexity behind the scenes, they remind us of us.
+      </p>
+      <p>
+        When I sat down so many years ago and asked myself a simple question "How does a program
+        work?" I didn't know that it would be the goal that stuck. But now, so many years later I
+        can't imagine not being one with my computer. I wish I could have an intimate knowledge of
+        every part of my computer, but I am still on that journey.
+      </p>
+      <p>
+        I have so many other things that keep me involved in society; distractions. I volunteer at a
+        local homeless shelter, I run, I bike, I try to learn politics, maybe I'll do something some
+        day?
+      </p>
+    </div>
   </div>
 </template>
 
 <style>
 .about {
-  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   color: var(--forground-color);
   padding: 32px;
-  width: 50%;
 }
 
 p {
