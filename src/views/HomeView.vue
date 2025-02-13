@@ -20,9 +20,6 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
 </template>
 
 <style>
-.placeholder {
-  height: 300px;
-}
 .container {
   position: relative;
 
@@ -52,6 +49,7 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
   width: 100px;
 
   border-left: var(--border-width) solid var(--forground-color);
+  z-index: -1;
 }
 
 .left-down::after {
@@ -64,6 +62,7 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
   width: 100px;
 
   border-left: var(--border-width) solid var(--forground-color);
+  z-index: -1;
 }
 
 .right-up::before {
@@ -76,6 +75,7 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
   width: 100px;
 
   border-right: var(--border-width) solid var(--forground-color);
+  z-index: -1;
 }
 
 .right-down::after {
@@ -88,6 +88,7 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
   width: 100px;
 
   border-right: var(--border-width) solid var(--forground-color);
+  z-index: -1;
 }
 
 .category1 {

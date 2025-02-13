@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import LinksComponent from './LinksComponent.vue'
+</script>
+
 <template>
   <div class="about">
     <div>
@@ -19,6 +23,7 @@
         day?
       </p>
     </div>
+    <LinksComponent />
   </div>
 </template>
 
@@ -28,6 +33,9 @@
   grid-template-columns: 1fr 1fr;
   color: var(--forground-color);
   padding: 32px;
+
+  align-items: end;
+  justify-items: end;
 }
 
 .paragraph {
